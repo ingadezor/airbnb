@@ -1,0 +1,165 @@
+body{
+    font-family: Montserrat;
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3.0rem;
+    line-height: 1.5;
+}
+
+
+h3{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 4.5% 15%;
+}
+
+
+/* sections */
+.coloured-section{
+    background-color: #FF5A5F;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* title section */
+#title{
+    text-align: left;
+}
+ 
+.title-img{
+    width: 50%;
+    transform: rotate(15deg);
+    margin-left: 60px;
+}
+
+
+
+
+/* navigation */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+}
+
+
+
+/* download buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-img{
+   width: 50px;
+   color:#FF5A5F;
+   margin-bottom: 1rem;
+}
+
+.feature-img:hover{
+    color: #ff9ea1;
+}
+
+
+
+
+/* popular places section */
+#popular-places{
+    padding-top: 40px;
+}
+
+.popoular-places-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.popular-img{
+    width: 85%;
+    margin: 20px;
+    display:block;
+    margin-left: 0;
+
+}
+
+
+
+#popular-places .row {
+    display : flex;
+    align-items : center;
+}
+
+
+/* press section */
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+
+
+/* pricing section */
+#pricing{
+    padding:100px;
+}
+
+.pricing-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.btn-card{
+    margin-bottom: 5%;
+}
+
+
+.plan-card{
+    padding: 3% 2%;
+}
+
+
+
+/* cta section */
+#cta h3{
+    font-family: "Montserrat";
+}
+
+/* footer section */
+#footer{
+    line-height: 2;
+}
+
+#footer a{
+    padding: 0 0.5%;
+}
